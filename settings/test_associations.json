@@ -1,0 +1,26 @@
+{
+  "test_list_to_dict": {
+    "name": "Liste -> dictionnaire",
+    "points": 1
+  },
+  "test_color_name_to_hex": {
+    "name": "Couleur -> Hex",
+    "points": 1
+  },
+  "test_odd_integer_for_loop": {
+    "name": "Liste (for)",
+    "points": 1
+  },
+  "test_odd_integer_list_comprehension": {
+    "name": "Liste (comprehension)",
+    "points": 1
+  },
+  "test_word_dict_for_loop": {
+    "name": "Dictionnaire (for)",
+    "points": 1
+  },
+  "test_word_dict_comprehension": {
+    "name": "Dictionnaire (comprehension)",
+    "points": 1
+  }
+}
