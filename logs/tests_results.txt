@@ -1,0 +1,115 @@
+test_color_name_to_hex (__main__.TestExercice) ... ok
+test_list_to_dict (__main__.TestExercice) ... ok
+test_odd_integer_for_loop (__main__.TestExercice) ... ok
+test_odd_integer_list_comprehension (__main__.TestExercice) ... ok
+test_word_dict_comprehension (__main__.TestExercice) ... FAIL
+test_word_dict_for_loop (__main__.TestExercice) ... FAIL
+
+======================================================================
+FAIL: test_word_dict_comprehension (__main__.TestExercice)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test_exercice.py", line 83, in test_word_dict_comprehension
+    'Mauvaise reponse'
+AssertionError: {'G': 'Given', 'a': 'a', 't': 'two', 'l': 'list', 'o': 'o[40 chars]ate'} != {'G': 'Given', 'A': 'a', 'T': 'two', 'L': 'list', 'O': 'o[40 chars]ate'}
+- {'G': 'Given',
+-  'a': 'a',
+? ^ ^
+
++ {'A': 'a',
+? ^ ^
+
+-  'c': 'create',
+?   ^
+
++  'C': 'create',
+?   ^
+
+-  'e': 'equal',
+?   ^
+
++  'E': 'equal',
+?   ^
+
++  'G': 'Given',
+-  'l': 'list',
+?   ^
+
++  'L': 'list',
+?   ^
+
+-  'o': 'of',
+?   ^
+
++  'O': 'of',
+?   ^
+
+-  's': 'size',
+?   ^
+
++  'S': 'size',
+?   ^
+
+-  't': 'two'}
+?   ^
+
++  'T': 'two'}
+?   ^
+ : Mauvaise reponse
+
+======================================================================
+FAIL: test_word_dict_for_loop (__main__.TestExercice)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test_exercice.py", line 72, in test_word_dict_for_loop
+    'Mauvaise reponse'
+AssertionError: {'G': 'Given', 'a': 'a', 't': 'two', 'l': 'list', 'o': 'o[40 chars]ate'} != {'G': 'Given', 'A': 'a', 'T': 'two', 'L': 'list', 'O': 'o[40 chars]ate'}
+- {'G': 'Given',
+-  'a': 'a',
+? ^ ^
+
++ {'A': 'a',
+? ^ ^
+
+-  'c': 'create',
+?   ^
+
++  'C': 'create',
+?   ^
+
+-  'e': 'equal',
+?   ^
+
++  'E': 'equal',
+?   ^
+
++  'G': 'Given',
+-  'l': 'list',
+?   ^
+
++  'L': 'list',
+?   ^
+
+-  'o': 'of',
+?   ^
+
++  'O': 'of',
+?   ^
+
+-  's': 'size',
+?   ^
+
++  'S': 'size',
+?   ^
+
+-  't': 'two'}
+?   ^
+
++  'T': 'two'}
+?   ^
+ : Mauvaise reponse
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.004s
+
+FAILED (failures=2)
